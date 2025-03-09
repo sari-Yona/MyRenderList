@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SariYona",
+  "license": "ISC",
+  "dependencies": {
+    "@api/render-api": "file:.api/apis/render-api",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.4",
+    "request": "^2.88.2"
+  },
+  "description": ""
+}
